@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expenses Chart Component</title>
+    <link rel="stylesheet" href="net.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <main>
+
+        <!-- Balance Section -->
+        <section class="box-1">
+            <div class="info">
+                <li>
+                    <h5>My balance</h5>
+                </li>
+                <li>
+                    <h1>$921.48</h1>
+                </li>
+            </div>
+            <img src="https://res.cloudinary.com/dkn6an4bw/image/upload/v1726128428/logo_nyjhnd.svg" alt="Logo">
+        </section>
+
+        <!-- Chart Section -->
+        <section class="chart-1">
+            <h1>Spending - Last 7 Days</h1>
+            <canvas id="spendingChart"></canvas>
+
+            <hr>
+
+            <!-- Footer Info -->
+            <div class="foot-0">
+                <div class="foot-1">
+                    <li>
+                        <h5>Total this Month</h5>
+                    </li>
+                    <li>
+                        <h1>$478.44</h1>
+                    </li>
+                </div>
+
+                <div class="foot-2">
+                    <h6>+2.4%</h6>
+                    <p>from last Month</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    
+    <script src="app.js"></script>
+
+</body>
+
+</html>
